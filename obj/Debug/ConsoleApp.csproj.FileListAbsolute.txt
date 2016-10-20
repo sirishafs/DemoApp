@@ -1,0 +1,9 @@
+C:\VisualStudio\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+C:\VisualStudio\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.exe
+C:\VisualStudio\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.pdb
+C:\VisualStudio\ConsoleApp\ConsoleApp\bin\Debug\nunit.framework.dll
+C:\VisualStudio\ConsoleApp\ConsoleApp\bin\Debug\NUnit.System.Linq.dll
+C:\VisualStudio\ConsoleApp\ConsoleApp\bin\Debug\nunit.framework.xml
+C:\VisualStudio\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache
+C:\VisualStudio\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.exe
+C:\VisualStudio\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.pdb
