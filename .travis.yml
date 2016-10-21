@@ -1,2 +1,5 @@
 language: csharp
 solution: ConsoleApp.sln
+install:
+ - nuget restore ConsoleApp.sln
+ - nuget install NUnit.Runners -Version 3.4.1 -OutputDirectory testrunner
