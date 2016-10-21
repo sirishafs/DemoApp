@@ -7,14 +7,28 @@ using NUnit.Framework;
 
 namespace ConsoleApp
 {
-    
-    class TestClass
+    [TestFixture]
+    public class TestClass
     {
         [Test]
-        public void TestMethod()
+        public void PositiveTest()
         {
-            // TODO: Add your test code here
-            Assert.Pass("Your first passing test");
+            int x = 7;
+            int y = 7;
+            Assert.AreEqual(x, y);
+        }
+
+        [Test]
+        public void NegativeTest()
+        {
+            if (true)
+                Assert.Fail("This is an error, Error");
+        }
+
+        [Test]
+        public void ExpectedExceptionTest()
+        {
+            throw new NotSupportedException();
         }
     }
 }
