@@ -3,3 +3,6 @@ solution: ConsoleApp.sln
 install:
  - nuget restore ConsoleApp.sln
  - nuget install NUnit.Runners -Version 3.4.1 -OutputDirectory testrunner
+ script:
+  - xbuild /p:Configuration=Release ConsoleApp.sln
+ - mono ./testrunner/NUnit.Runners.3.4.1/tools/nunit-console.exe 
