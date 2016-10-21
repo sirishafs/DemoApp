@@ -1,6 +1,10 @@
 language: csharp
-solution: ConsoleApp.sln
-install:
+script:
+- xbuild /p:Configuration=Debug ConsoleApp.sln
+before_install:
+ - sudo apt-get install nunit-console
+ before_script:
  - nuget restore ConsoleApp.sln
- - nuget install NUnit.Runners -Version 3.4.1 -OutputDirectory testrunner
+ after_script:
+ - nunit-console ConsoleApp/bin/Debug/Tests.dll
  
