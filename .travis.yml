@@ -5,6 +5,4 @@ before_install:
  - sudo apt-get install nunit-console
  before_script:
  - nuget restore ConsoleApp.sln
- after_script:
- - nunit-console ConsoleApp/bin/Debug/Tests.dll
  
