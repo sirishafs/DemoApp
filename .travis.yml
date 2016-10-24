@@ -6,4 +6,4 @@ before_install:
 before_script:
  - nuget restore ConsoleApp.sln
 after_script:
-  - nunit-console ConsoleApp/bin/Debug/ConsoleApp.dll
+  - nunit-console Tests/bin/Release/Tests.dll
