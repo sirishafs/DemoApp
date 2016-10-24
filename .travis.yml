@@ -1,8 +1,8 @@
 language: csharp
 script:
-- xbuild /p:Configuration=Debug ConsoleApp.sln
+  - xbuild /p:Configuration=Debug ConsoleApp.sln
 before_install:
  - nuget install nunit-console
- before_script:
+before_script:
  - nuget restore ConsoleApp.sln
  
