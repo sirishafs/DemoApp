@@ -1,6 +1,7 @@
 language: csharp
 script:
   - xbuild /p:Configuration=Debug ConsoleApp.sln
+  - mono ./nunitconsole/NUnit.ConsoleRunner.3.5.0/tools/nunit3-console.exe
 before_install:
  - sudo apt-get install nunit-console
 before_script:
