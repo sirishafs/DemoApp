@@ -5,4 +5,4 @@ install:
   - nuget install NUnit.ConsoleRunner -Version 3.5.0 -OutputDirectory consolerunner
 script:
   - xbuild /p:Configuration=Release ConsoleApp.sln
-  - mono ./nunitconsole/NUnit.ConsoleRunner.3.5.0/tools/nunit3-console.exe ./NUnit.Tests/bin/Debug/NUnit.Tests.dll
+  - mono ./nunitconsole/NUnit.ConsoleRunner.3.5.0/tools/nunit3-console.exe ../NUnit.Tests/bin/Debug/NUnit.Tests.dll
